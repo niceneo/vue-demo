@@ -16,11 +16,19 @@ Vue.use(VueResource)
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
+/*
 import { Header, Swipe, SwipeItem, Button } from 'mint-ui'
 Vue.component(Header.name, Header)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
 Vue.component(Button.name, Button)
+*/
+import MintUI from 'mint-ui'
+Vue.use(MintUI)
+import 'mint-ui/lib/style.css'
+
+
+
 
 import router from './router.js'
 
